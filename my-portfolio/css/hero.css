@@ -1,29 +1,36 @@
 .section-hero {
-    height: 500px;
-    background-color: #D40A44;
-    display: flex;
+  height: 500px;
+  background-color: #d40a44;
+  display: flex;
 }
 
 .section-hero > .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 800px;
-    width: 100%;
-    padding: 0 20px;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 20px;
+  color: #fff;
 }
 
 .section-hero > .container > img {
-    width: 200px;
-    height: 200px;
-    margin: 10px 0;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
 }
 
 .section-hero > .container > h2 {
-    margin: 5px;
-    font-size: 60px;
-    text-transform: uppercase;
+  margin: 5px;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 455px) {
+  .section-hero > .container > img {
+    margin-top: 80px;
+  }
 }

@@ -19,7 +19,7 @@
 .section-hero > .container > img {
   width: 200px;
   height: 200px;
-  margin: 10px 0;
+  margin: 70px 0 10px;
 }
 
 .section-hero > .container > h2 {
@@ -31,6 +31,6 @@
 
 @media (max-width: 455px) {
   .section-hero > .container > img {
-    margin-top: 80px;
+    margin-top: 200px;
   }
 }

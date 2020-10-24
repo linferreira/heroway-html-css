@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
-@import 'nav.css';
-@import 'hero.css';
-@import 'about.css';
+@import "nav.css";
+@import "hero.css";
+@import "about.css";
+@import "portfolio.css";
+@import "contact.css";
 
 * {
   box-sizing: border-box;
@@ -16,3 +18,14 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}

@@ -16,36 +16,82 @@
   <nav class="nav">
     <div class="container">
       <div>
-        <h1>MYWEBSITE</h1>
+        <a href="#hero">
+          <h1>MYWEBSITE</h1>
+        </a>
       </div>
-      <div class="menu">
-        <span>PORTFOLIO</span>
-        <span>ABOUT</span>
-        <span>CONTACT</span>
-      </div>
+      <ul class="menu">
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li> <a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
     </div>
   </nav>
-  <section class="section-hero">
+
+  <section id='hero' class="section-hero">
     <div class="container">
       <img src="img/avataaars.svg" alt="Avatar" title="Avatar" />
       <h2>My Website</h2>
       <p>Graphic Artist - Web Designer - Illustrator</p>
     </div>
   </section>
-  <section class="section-about">
+
+
+  <section id="portfolio" class="section-portfolio">
+    <div class="container">
+      <h3>Portfólio</h3>
+
+      <div class="container-img">
+        <img src="./img/cabin.png" class='top' alt="Ilustração de um chalé">
+        <img src="./img/cake.png" class='top' alt="Ilustração de uma fatia de bolo">
+        <img src="./img/circus.png" class='top' alt="Ilustração de um circo">
+        <img src="img/game.png" class='bottom' alt="Ilustração de um controle de video-game">
+        <img src="img/safe.png" class='bottom' alt="Ilustração de um cofre">
+        <img src="img/submarine.png" alt="Ilustração de um submarino">
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="about" class="section-about">
     <div class="container">
       <h3>About</h3>
       <div class="content">
         <div>
-          Freelander is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization.
+          Freelander is a free bootstrap theme created by Start Bootstrap. The download includes the complete source
+          files including HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization.
         </div>
         <div>
-          You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+          You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email
+          address to the contact form to make it fully functional!
         </div>
       </div>
       <button>Free Download!</button>
     </div>
   </section>
+
+  <section id="contact" class="section-contact">
+    <div class="container">
+      <h3>Contact-me</h3>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+
+        <label for="email">Email Adress</label>
+        <input type="email" id="email" />
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" />
+
+        <label for="message">Message</label>
+        <textarea rows="4" cols="50" id="message"></textarea>
+
+        <button>Send</button>
+      </form>
+    </div>
+  </section>
+
 </body>
 
 </html>

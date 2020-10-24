@@ -1,0 +1,45 @@
+.section-portfolio > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 20px;
+  color: #fff;
+  max-width: 800px;
+  width: 100%;
+  padding: 60px 20px;
+}
+
+.section-portfolio > .container > h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.section-portfolio > .container > .container-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-portfolio > .container > .container-img img {
+  width: 220px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.section-portfolio > .container > .container-img img.top {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .section-portfolio > .container > .container-img img.bottom {
+    margin-bottom: 20px;
+  }
+}

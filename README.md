@@ -7,3 +7,4 @@
 
 2. Exercício My Portfólio
  * Desenvolver um site completo a partir de um design fornecido apenas em uma foto.
+[Resultado](https://linferreira.github.io/heroway-html-css/my-portfolio/)
